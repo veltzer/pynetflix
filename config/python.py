@@ -9,15 +9,9 @@ dev_requires = [
     "black",
 ]
 install_requires = [
-    "google-api-python-client",
-    "google-auth-httplib2",
-    "google-auth-oauthlib",
-    "pygooglehelper",
     "pytconf",
     "pylogconf",
-    "pyvardump",
-    "youtube-dl",
-    "browsercookie",
+    "browser_cookie3",
 ]
 test_requires = [
     "pytest",

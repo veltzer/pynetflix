@@ -13,7 +13,9 @@ from pynetflix.static import DESCRIPTION, APP_NAME, VERSION_STR
     configs=[ConfigId],
 )
 def list_remove() -> None:
-    print(ConfigId.id)
+    url = "https://www.netflix.com/api/shakti/v342de553/playlistop"
+    method = "POST"
+    # use cookies
 
 
 @register_main(
