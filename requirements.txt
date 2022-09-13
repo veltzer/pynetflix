@@ -1,14 +1,8 @@
 # THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT!
 # production requirements
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
-pygooglehelper
 pytconf
 pylogconf
-pyvardump
-youtube-dl
-browsercookie
+browser_cookie3
 # dev requirements
 pyclassifiers
 pypitools
