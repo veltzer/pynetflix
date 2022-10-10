@@ -4,10 +4,7 @@ pytconf
 pylogconf
 browser_cookie3
 # dev requirements
-pyclassifiers
 pypitools
-pydmt
-Sphinx
 black
 # test requirements
 pytest
