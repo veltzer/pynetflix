@@ -2,11 +2,13 @@ console_scripts = [
     "pynetflix=pynetflix.main:main",
 ]
 dev_requires = [
-    "pyclassifiers",
     "pypitools",
+    "black",
+]
+make_requires = [
+    "pyclassifiers",
     "pydmt",
     "Sphinx",
-    "black",
 ]
 install_requires = [
     "pytconf",
