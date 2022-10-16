@@ -3,13 +3,3 @@
 pytconf
 pylogconf
 browser_cookie3
-# dev requirements
-pypitools
-black
-# test requirements
-pytest
-pytest-cov
-pylint
-flake8
-pymakehelper
-mypy
