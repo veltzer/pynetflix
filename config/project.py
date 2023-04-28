@@ -1,3 +1,4 @@
+name = "pynetflix"
 description_short = "Netflix toolkit"
 keywords = [
     "google",
