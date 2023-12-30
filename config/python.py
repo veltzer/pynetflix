@@ -1,20 +1,24 @@
-console_scripts = [
+from typing import List
+
+
+console_scripts: List[str] = [
     "pynetflix=pynetflix.main:main",
 ]
-dev_requires = [
+config_requires: List[str] = []
+dev_requires: List[str] = [
     "pypitools",
     "black",
 ]
-make_requires = [
+make_requires: List[str] = [
     "pyclassifiers",
     "pydmt",
 ]
-install_requires = [
+install_requires: List[str] = [
     "pytconf",
     "pylogconf",
     "browser_cookie3",
 ]
-test_requires = [
+test_requires: List[str] = [
     "pytest",
     "pytest-cov",
     "pylint",
@@ -22,3 +26,4 @@ test_requires = [
     "pymakehelper",
     "mypy",
 ]
+requires = config_requires + install_requires + make_requires + test_requires
