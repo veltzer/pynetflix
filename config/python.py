@@ -16,7 +16,7 @@ install_requires: List[str] = [
     "pylogconf",
     "browser_cookie3",
 ]
-make_requires: List[str] = [
+build_requires: List[str] = [
     "pydmt",
 ]
 test_requires: List[str] = [
@@ -27,4 +27,4 @@ test_requires: List[str] = [
     "pymakehelper",
     "mypy",
 ]
-requires = config_requires + install_requires + make_requires + test_requires
+requires = config_requires + install_requires + build_requires + test_requires
