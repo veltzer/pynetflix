@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pynetflix=pynetflix.main:main",
-]
+scripts: dict[str,str] = {
+    "pynetflix": "pynetflix.main:main",
+}
 
 config_requires: list[str] = [
     "pyclassifiers",

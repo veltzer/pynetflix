@@ -1,0 +1,55 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pynetflix"
+version = "0.0.3"
+requires-python = ">=3.12"
+authors = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+maintainers = [
+	{ name = "Mark Veltzer", email = "mark.veltzer@gmail.com" }
+]
+description = "Netflix toolkit"
+readme = "README.md"
+license = "MIT"
+keywords=[
+    "google",
+    "youtube",
+    "playlist",
+    "videos",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pytconf",
+    "pylogconf",
+    "browser_cookie3",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/veltzer/pynetflix"
+"Bug Tracker" = "https://github.com/veltzer/pynetflix/issues"
+"Documentation" = "https://veltzer.github.io/pynetflix"
+"Download" = "https://pypi.org/project/pynetflix/"
+"Repository" = "https://github.com/veltzer/pynetflix"
+
+[project.scripts]
+pynetflix = "pynetflix.main:main"
+
+[tool.ruff]
+line-length = 130
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

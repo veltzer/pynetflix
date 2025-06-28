@@ -1,12 +1,11 @@
 # THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT!
-pyclassifiers
-pytconf
-pylogconf
 browser_cookie3
+mypy
+pyclassifiers
 pydmt
+pylint
+pylogconf
+pymakehelper
+pytconf
 pytest
 pytest-cov
-pylint
-flake8
-pymakehelper
-mypy
