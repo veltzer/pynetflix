@@ -38,6 +38,14 @@ dependencies = [
     "browser_cookie3",
 ]
 
+[dependency-groups]
+dev = [
+    "mypy",
+    "pylint",
+    "pytest",
+    "ruff",
+]
+
 [project.urls]
 "Homepage" = "https://github.com/veltzer/pynetflix"
 "Bug Tracker" = "https://github.com/veltzer/pynetflix/issues"
