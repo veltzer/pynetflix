@@ -5,7 +5,7 @@
 
 description: Netflix toolkit
 
-project website: https://veltzer.github.io/pynetflix
+project website: <https://veltzer.github.io/pynetflix>
 
 author: Mark Veltzer
 
